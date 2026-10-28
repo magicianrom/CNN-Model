@@ -4,7 +4,7 @@ from PIL import Image
 from keras.models import load_model
 
 # Load model
-network = load_model("age_model.keras")
+network = load_model("streamlit/age_model.keras")
 
 st.title("Age Prediction")
 st.write("Upload a facial image to predict the person's age.")
